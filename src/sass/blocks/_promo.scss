@@ -1,0 +1,73 @@
+.promo {
+  // position: absolute;
+  // top: 0;
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url("../assets/img/promo-bg.jpg") center (center / cover) no-repeat;
+  &__wrapper {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__title {
+    color: #FFF;
+    text-align: right;
+    // font-family: MuseoModerno;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    color: #FFF;
+    text-align: right;
+    // font-family: MuseoModerno;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 17px;
+  }
+  &__icons {
+    display: flex;
+    margin-top: 60px;
+  }
+  &__icon {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    img {
+      width: 100%;
+    }
+  }
+  &__icon-descr {
+    color: #FFF;
+    text-align: center;
+    // font-family: MuseoModerno;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    margin-top: 20px;
+    width: 136px;
+  } 
+  &__link {
+    margin-top: 10px;
+    color: #FFF;
+    text-align: right;
+    // font-family: MuseoModerno;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    a {
+      color: #FFF;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
+}
