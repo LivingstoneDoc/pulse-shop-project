@@ -27,6 +27,16 @@
       }
     }
   }
+  .consultation {
+    .title {
+      &_consulting {
+        font-size: 30px;
+      }
+    }
+    .consultation__descr {
+      font-size: 17px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -92,6 +102,23 @@
       }
     }
   }
+  .consultation {
+    .title {
+      &_consulting {
+        font-size: 25px;
+        text-align: center;
+        line-height: 45px;
+      }
+    }
+    .consultation__descr {
+      font-size: 15px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .form {
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -122,6 +149,17 @@
   .advantages {
     .advantages__title {
       font-size: 20px;
+    }
+  }
+  .consultation {
+    .title {
+      &_consulting {
+        font-size: 19px;
+      }
+    }
+    .consultation__descr {
+      font-size: 12px;
+      width: 100%;
     }
   }
 }
