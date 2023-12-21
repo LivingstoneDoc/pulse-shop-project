@@ -1,0 +1,121 @@
+.carousel {
+    padding: 81px 0;
+    &__widget {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-prev,
+    .slick-next {
+        border: none;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slick-next {
+        left: auto;
+        right: -66px;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        // padding: 1rem 0;
+        li {
+            margin: 5px;
+        }
+        button {
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 100%;
+            border: none;
+            text-indent: -9999px;
+            background-color: #5e5b5a;
+            &:hover {
+                background-color: #000;
+            }
+        }
+        .slick-active button {
+            background-color: #000;
+        }
+    }
+
+    &__inner {
+        // position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    // .prev-button, .next-button {
+    //     position: absolute;
+    //     border: none;
+    //     background-color: #fff;
+        
+    //     img {
+    //         display: block;
+    //         width: 31px;
+    //         height: 50px;
+    //     }
+    // }
+
+    // .prev, .next {
+    //     position: absolute;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     left: -66px;
+    // }
+    // .next {
+    //     left: auto;
+    //     right: -66px;
+    // }
+
+    .prev-button, .next-button {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        transition: 0.5s all;
+        img {
+            width: 31px;
+            height: 50%;
+        }
+    }
+    
+    .next-button {
+        left: auto;
+        right: -66px;
+
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .tns-nav {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        button {
+            background-color: lightgray;
+            border: none;
+            border-radius: 100%;
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+        .tns-nav-active {
+            background-color: #000;
+        }
+    }
+}
