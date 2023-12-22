@@ -54,6 +54,12 @@
       font-size: 17px;
     }
   }
+
+  .catalog {
+    .catalog__title {
+      font-size: 28px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -171,6 +177,28 @@
       }
     }
   }
+
+  .catalog {
+    .catalog__title {
+      font-size: 26px;
+    }
+    .catalog__tabs {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .catalog__tab {
+      box-sizing: border-box;
+      width: 50%;
+    }
+    .catalog__part {
+      justify-content: center;
+      gap: 20px;
+    }
+    .catalog-item {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -220,6 +248,15 @@
     .consultation__descr {
       font-size: 12px;
       width: 100%;
+    }
+  }
+
+  .catalog {
+    .catalog__title {
+      font-size: 23px;
+    }
+    .catalog__tab {
+      width: 223px;
     }
   }
 }
