@@ -1,9 +1,27 @@
+@media (max-width: 1100px) {
+  .footer {
+    .footer__info {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
 @media (max-width: 1080px) {
   .carousel {
 
     .prev-button,
     .next-button {
       display: none;
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  .footer {
+    .footer__info {
+      left: 50%;
+      width: 100%;
     }
   }
 }
