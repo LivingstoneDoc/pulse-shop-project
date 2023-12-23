@@ -60,6 +60,15 @@
       font-size: 28px;
     }
   }
+
+  .feedbacks {
+    .feedbacks__title {
+      font-size: 28px;
+    }
+    .feedbacks-wrapper__descr {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -199,6 +208,26 @@
       margin-bottom: 0;
     }
   }
+
+  .feedbacks {
+    .feedbacks__title {
+      font-size: 25px;
+    }
+    .feedbacks-wrapper__fb {
+      flex-direction: column;
+      align-items: center;
+    }
+    .feedbacks-wrapper__name {
+      text-align: center;
+    }
+    .feedbacks-wrapper__archievement {
+      text-align: center;
+    }
+    .feedbacks-wrapper__descr {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -257,6 +286,12 @@
     }
     .catalog__tab {
       width: 223px;
+    }
+  }
+
+  .feedbacks {
+    .feedbacks__title {
+      font-size: 23px;
     }
   }
 }
