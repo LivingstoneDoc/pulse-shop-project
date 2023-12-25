@@ -312,4 +312,14 @@
       font-size: 23px;
     }
   }
+
+  .overlay {
+    .modal {
+      .modal__close {
+        top: -23px;
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+  }
 }
