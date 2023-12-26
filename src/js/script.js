@@ -47,6 +47,31 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn('slow');
       });
     });
+
+    function formValidation(form) {
+      $(form).validate({
+        rules: {
+          name: "required",
+          phone: "required",
+          email: {
+            required: true,
+            email: true
+          }
+        },
+        messages: {
+          name: "Пожалуйста, введите ваше имя",
+          phone: "Пожалуйста, введите ваш номер телефона",
+          email: {
+            required: "Пожалуйста, введите вашу почту",
+            email: "Формат адреса: name@domain.com",
+          }
+        }
+      });
+    }
+  
+    formValidation("#form-consultation");
+    formValidation("#consultation form");
+    formValidation("#order form");
   
   });
   
