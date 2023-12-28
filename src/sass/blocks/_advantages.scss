@@ -19,6 +19,18 @@
       // height: 70px;
       background: white;
     }
+    &_animate {
+      img {
+        animation: heartbeat 2s ease infinite;
+        // animation-name: heartbeat;
+        // animation-duration: 2s;
+        // animation-timing-function: ease;
+        // animation-iteration-count: infinite;
+        &:hover {
+          animation-play-state: paused;
+        }
+      }
+    }
   }
   &__item-subtitle {
     margin-top: 30px;
